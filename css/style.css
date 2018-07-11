@@ -484,7 +484,7 @@ footer {
     position: fixed;
     right: 0;
     top: 40px;
-    width: 150px;
+    width: 120px;
     height: 100%;
     background: #222;
   }
@@ -492,12 +492,18 @@ footer {
   .nav li {
     border: 0;
     border-radius: 0;
+    display: block;
   }
 
   h2 {
     margin-bottom: 35px;
     font-size: 36px;
   }
+
+  .col-left, .col-right {
+    float: none;
+    width: 100%;
+}
 
   .service-items {
     padding: 0 30px
@@ -508,16 +514,12 @@ footer {
   }
 
   .col-work {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
   .contact-form {
     width: 80%;
   }
-
-  /*
-    手機版的 css 都寫在這邊
-  */   
 
 }
